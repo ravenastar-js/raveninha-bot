@@ -18,6 +18,10 @@ Guia para iniciantes que estão começando na jornada de desenvolvimento de bot 
 ● Projeto discord.js v13 com command handling<br>
  ➥ https://github.com/discordjs/guide/tree/main/code-samples/creating-your-bot/command-handling<br>
 
+ ## Playlist recomendada.
+ ![](https://i.imgur.com/toQwUZE.png) Veja a playlist [clicando aqui](https://youtube.com/playlist?list=PLj8eMR1hXlcJDjxtBi1QhJg0dEWk5b3t6)
+ > :warning: **Na playlist é usadas versões antigas da lib (v12), entretanto precisará atualizar, adaptar o projeto para as versões atuais.**
+
 ● Instale as dependências:
 ```
 npm i discord.js
