@@ -17,6 +17,6 @@ npm i dotenv
 npm i chalk@4.1.2
 npm i glob
 ```
-## Não esqueça de mudar as informações dos arquivos `config.json`, `.env` e `SlashCommands/Bot/help.js`
+Não esqueça de mudar as informações dos arquivos `config.json`, `.env` e `SlashCommands/Bot/help.js`
 
 > #discord.jsv13 #slashcommands #handlers #prefix
