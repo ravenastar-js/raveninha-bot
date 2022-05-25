@@ -17,11 +17,7 @@ npm i dotenv
 npm i chalk@4.1.2
 npm i glob
 ```
-<a href="https://www.npmjs.com/package/discord.js" target="_blank"><img src="https://img.shields.io/badge/-discord.js-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/discord.js"/></a>ﾠ
-
-<a href="https://www.npmjs.com/package/dotenv" target="_blank"><img src="https://img.shields.io/badge/-dotenv-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/dotenv"/></a>ﾠ
-
-<a href="https://www.npmjs.com/package/chalk" target="_blank"><img src="https://img.shields.io/badge/-chalk@4.1.2-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/chalk"/></a>ﾠ
+<a href="https://www.npmjs.com/package/discord.js" target="_blank"><img src="https://img.shields.io/badge/-discord.js-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/discord.js"/></a> <a href="https://www.npmjs.com/package/dotenv" target="_blank"><img src="https://img.shields.io/badge/-dotenv-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/dotenv"/></a> <a href="https://www.npmjs.com/package/chalk" target="_blank"><img src="https://img.shields.io/badge/-chalk@4.1.2-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/chalk"/></a>ﾠ
 
 ● Mude as informações dos arquivos `config.json`, `.env` e `SlashCommands/Bot/help.js`
 
