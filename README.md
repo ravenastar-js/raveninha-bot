@@ -10,16 +10,16 @@ Guia para iniciantes que estão começando na jornada de desenvolvimento de bot 
 ● https://discord.js.org/#/docs/main/stable/general/welcome<br>
 ● https://discordjs.guide/
 
-## Instale as dependências:
+● Instale as dependências:
 ```
 npm i discord.js
 npm i dotenv
 npm i chalk@4.1.2
 npm i glob
 ```
-Mude as informações dos arquivos `config.json`, `.env` e `SlashCommands/Bot/help.js`
+● Mude as informações dos arquivos `config.json`, `.env` e `SlashCommands/Bot/help.js`
 
-Não esqueça de ativar as permissões no [portal do desenvolvedor](https://discord.dev) do Discord.
+● Não esqueça de ativar as permissões no [portal do desenvolvedor](https://discord.dev) do Discord.
 ![](https://i.imgur.com/8DBc7xf.png)
 
 > #discord.jsv13 #slashcommands #handlers #prefix
