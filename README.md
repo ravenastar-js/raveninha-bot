@@ -19,7 +19,7 @@ npm i glob
 ```
 Mude as informações dos arquivos `config.json`, `.env` e `SlashCommands/Bot/help.js`
 
-Não esqueça de ativar as permissões no portal de desenvolvedor do Discord em https://discord.dev
+Não esqueça de ativar as permissões no [portal de desenvolvedor](https://discord.dev) do Discord.
 ![](https://i.imgur.com/8DBc7xf.png)
 
 > #discord.jsv13 #slashcommands #handlers #prefix
