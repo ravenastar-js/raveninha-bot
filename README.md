@@ -17,7 +17,8 @@ npm i dotenv
 npm i chalk@4.1.2
 npm i glob
 ```
-[![](img.shields.io/badge/-discord.js-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white)](https://www.npmjs.com/package/discord.js)
+<a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/badge/-discord.js-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/discord.js"/></a>ﾠ
+
 ● Mude as informações dos arquivos `config.json`, `.env` e `SlashCommands/Bot/help.js`
 
 ● Não esqueça de ativar as permissões no [portal do desenvolvedor](https://discord.dev) do Discord.
