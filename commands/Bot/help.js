@@ -27,11 +27,13 @@ module.exports = {
                 utilityCommandsList.push(name);
             });
 
-            const helpEmbed = new client.discord.MessageEmbed()
+            const helpEmbed = new client.discord.EmbedBuilder()
                 .setTitle(`${client.user.username} Help`)
                 .setDescription(` Olá **<@${message.author.id}>**, Eu sou <@${client.user.id}>.  \nVocê pode usar \`!help <commando>\` para ver mais informações sobre os comandos!\n**Todos os comandos de prefixo:** ${client.commands.size}\n**Todos os SlashCommands:** ${client.slash.size}`)
-                .addField("🤖 - Bot Commands", botCommandsList.map((data) => `${data}`).join(", "), true)
-                .addField("🛠 - Utility Commands", utilityCommandsList.map((data) => `${data}`).join(", "), true)
+                .addFields(
+                    {name:"🤖 - Bot Commands", value: botCommandsList.map((data) => `${data}`).join(", ")},
+                    {name:"🛠 - Utility Commands", value: utilityCommandsList.map((data) => `${data}`).join(", ")}
+                )
                 .setColor(client.config.embedColor)
                 .setFooter({ text: `${client.config.embedfooterText}`, iconURL: `${client.user.displayAvatarURL()}` });
 
@@ -50,7 +52,7 @@ module.exports = {
                 let aliases = command.aliases || "Nenhuma aliases"
                 let category = command.category || "Nenhuma categoria fornecida"
 
-                let helpCmdEmbed = new client.discord.MessageEmbed()
+                let helpCmdEmbed = new client.discord.EmbedBuilder()
                     .setTitle(`${client.user.username} Help | \`${(name.toLocaleString())}\` Command`)
                     .addFields(
                         { name: "Descrição", value: `${description}` },

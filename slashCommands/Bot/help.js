@@ -1,6 +1,5 @@
 const { readdirSync } = require("node:fs");
-const Discord = require('discord.js')
-const { MessageSelectMenu, MessageActionRow } = require("discord.js")
+const {EmbedBuilder, SelectMenuBuilder, ActionRowBuilder, ApplicationCommandOptionType} = require("discord.js")
 module.exports = {
     name: "help",
     usage: '/help <commando>',
@@ -8,7 +7,7 @@ module.exports = {
         {
             name: 'commando',
             description: 'Qual comando você precisa de ajuda?',
-            type: 'STRING',
+            type: ApplicationCommandOptionType.String,
             required: false
         }
     ],
@@ -34,13 +33,13 @@ module.exports = {
                 utilityCommandsList.push(name);
             });
 
-            let a1 = '979045596465889340'//Bot SlashCommands ( mudar o ID do emoji para um que seu bot tiver acesso)
-            let a2 = '817832792732860416' //Utility SlashCommands ( mudar o ID do emoji para um que seu bot tiver acesso)
-            let home = '979046183764897862'//home ( mudar o ID do emoji para um que seu bot tiver acesso)
+            let a1 = '<:raveninha_1:825060315506802698>'//Bot SlashCommands ( mudar o ID do emoji para um que seu bot tiver acesso)
+            let a2 = '<:raveninha_2:825060315527118928>' //Utility SlashCommands ( mudar o ID do emoji para um que seu bot tiver acesso)
+            let home = '<:home_raveninha:979046183764897862>'//home ( mudar o ID do emoji para um que seu bot tiver acesso)
 
-            const row = new MessageActionRow()
+            const row = new ActionRowBuilder()
             .addComponents(
-                new MessageSelectMenu()
+                new SelectMenuBuilder()
                     .setCustomId('select')
                     .setPlaceholder('Ler sobre...')
                     .setMinValues(1)
@@ -63,9 +62,9 @@ module.exports = {
                         },
                     ]),
             );
-            const rowoff = new MessageActionRow()
+            const rowoff = new ActionRowBuilder()
             .addComponents(
-              new MessageSelectMenu()
+              new SelectMenuBuilder()
                 .setCustomId('select')
                 .setPlaceholder('O tempo acabou, use o comando novamente.')
                 .setMinValues(1)
@@ -79,16 +78,16 @@ module.exports = {
                 ])
                 .setDisabled(true)
             );
-            const helpEmbed = new client.discord.MessageEmbed()
+            const helpEmbed = new EmbedBuilder()
                 .setColor(client.config.embedColor)
                 .setDescription(` Olá **<@${interaction.member.id}>**, sou <@${client.user.id}>.  \nVocê pode usar \`/help <slashcommand>\` para ver mais informações sobre os SlashCommands!\n\n**Todos os comandos de prefixo:** ${client.commands.size}\n**Todos os SlashCommands:** ${client.slash.size}`)
                 await interaction.reply({ embeds: [helpEmbed], components: [row], fetchReply: true, ephemeral: true}).then(async m => {
-                    const collector = m.createMessageComponentCollector({time: 600000, componentType: "SELECT_MENU",errors: ['time']})
+                    const collector = m.createMessageComponentCollector({time: 600000,errors: ['time']})
                     collector.on('collect', async i => {
                         if (i.user.id === interaction.user.id) {
                         if (i.values[0] == "t1") {
                             await i.deferUpdate()
-                            const embedt1 = new Discord.MessageEmbed()
+                            const embedt1 = new EmbedBuilder()
                                 .setTitle("<:robot_raveninha:979045596465889340> - Bot SlashCommands")
                                 .setDescription(`**Comandos de barra \`/\`**\n\`\`\`${botCommandsList.map((data) => `${data}`).join(", ")}\`\`\` `)
                                 .setColor(client.config.embedColor)
@@ -98,7 +97,7 @@ module.exports = {
                     
                         if (i.values[0] == "t2") {
                             await i.deferUpdate()
-                            const embedt2 = new Discord.MessageEmbed()
+                            const embedt2 = new EmbedBuilder()
                                 .setTitle("<:modmanu_raveninha:817832792732860416> - Utility SlashCommands")
                                 .setDescription(`**Comandos de barra \`/\`**\n\`\`\`${utilityCommandsList.map((data) => `${data}`).join(", ")}\`\`\` `)
                                 .setColor(client.config.embedColor)
@@ -131,7 +130,7 @@ module.exports = {
                 let usage = command.usage || "Nenhuma descrição de uso fornecido"
                 let category = command.category || "Nenhuma categoria fornecida"
 
-                let helpCmdEmbed = new client.discord.MessageEmbed()
+                let helpCmdEmbed = new EmbedBuilder()
                     .setTitle(`Slashcommands | \`${(name.toLocaleString())}\``)
                     .addFields(
                         { name: "Descrição", value: `${description}` },

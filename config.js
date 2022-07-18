@@ -3,5 +3,5 @@ module.exports = {
     botPrefix: "PREFIXO_DO_BOT",
     ownerID: "ID_DO_DONO",
     embedColor: "HEXCOLOR",
-    embedfooterText: "Exemplo bot - discord.js v13"
+    embedfooterText: "Exemplo bot - discord.js v14"
 }

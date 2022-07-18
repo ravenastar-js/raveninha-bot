@@ -1,7 +1,7 @@
 > :warning: **Antes de iniciar nessa jornada, para facilitar o conhecimento e entedimento sugiro estudar javascript e a lógica de programação antes de praticar.**
 # Projeto ilustrativo.
 Guia para iniciantes que estão começando na jornada de desenvolvimento de bot para Discord.
-> v13 requer o node 16.6
+> v14 requires Node 16.9
 
 ## 📄 Confira alguns artigos que serão úteis para sua jornada:
 ● https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide<br>
@@ -11,8 +11,8 @@ Guia para iniciantes que estão começando na jornada de desenvolvimento de bot 
 ● https://discordjs.guide/
 
 ## 📄 Discord.js guide:
-● Atualizando da v12 para a v13<br>
- ➥ https://discordjs.guide/additional-info/changes-in-v13.html<br><br>
+● Atualizando da v13 para a v14<br>
+ ➥ https://discordjs.guide/additional-info/changes-in-v14.html<br><br>
 ● Command handling<br>
  ➥ https://discordjs.guide/creating-your-bot/command-handling.html<br><br>
 ● Projeto discord.js v13 com command handling<br>
@@ -35,4 +35,4 @@ npm i chalk@4.1.2
 ● Não esqueça de ativar as permissões no [portal do desenvolvedor](https://discord.dev)
 ![](https://i.imgur.com/8DBc7xf.png)
 
-> #discord.jsv13 #slashcommands #handlers #prefix
+> #discord.jsv14 #slashcommands #handlers #prefix

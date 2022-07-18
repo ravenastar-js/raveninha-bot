@@ -1,3 +1,4 @@
+const {InteractionType} = require("discord.js")
 module.exports = {
     name: 'interactionCreate',
 
@@ -6,7 +7,8 @@ module.exports = {
      * @param {Client} client 
      */
     async execute(interaction, client) {
-        if (!interaction.isCommand()) return;
+ 
+        if (interaction.type !== InteractionType.ApplicationCommand) return;
         
         const command = client.slash.get(interaction.commandName);
         if (!command) return interaction.reply({ content: 'erro ao processar o comando' });

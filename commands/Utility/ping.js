@@ -7,10 +7,12 @@ module.exports = {
     run: async (client, message) => {
         const msg = await message.channel.send(`🏓 Ping...`);
 
-        const pingEmbed = new client.discord.MessageEmbed()
+        const pingEmbed = new client.discord.EmbedBuilder()
             .setTitle(':signal_strength: 🏓 Pong')
-            .addField("Latency", `${Math.floor(msg.createdAt - message.createdAt)}ms`, true)
-            .addField("API Ping", `${client.ws.ping}ms`, true)
+            .addFields(
+                {name:"Latência", value:`${Math.floor(msg.createdAt - message.createdAt)}ms`},
+                {name:"API Ping", value:`${client.ws.ping}ms`}
+                )
             .setColor(client.config.embedColor)
             .setFooter({ text: `${client.config.embedfooterText}`, iconURL: `${client.user.displayAvatarURL()}` });
 
