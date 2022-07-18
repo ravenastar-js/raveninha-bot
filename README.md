@@ -1,8 +1,7 @@
+> :warning: **Antes de iniciar nessa jornada, para facilitar o conhecimento e entedimento sugiro estudar javascript e a lógica de programação antes de praticar.**
 # Projeto ilustrativo.
 Guia para iniciantes que estão começando na jornada de desenvolvimento de bot para Discord.
 > v13 requer o node 16.6
-
-> :warning: **Antes de iniciar nessa jornada, para facilitar o conhecimento e entedimento sugiro estudar javascript e a lógica de programação antes de praticar.**
 
 ## 📄 Confira alguns artigos que serão úteis para sua jornada:
 ● https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide<br>
