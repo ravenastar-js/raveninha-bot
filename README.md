@@ -12,11 +12,7 @@ Guia para iniciantes que estão começando na jornada de desenvolvimento de bot 
 
 ## 📄 Discord.js guide:
 ● Atualizando da v13 para a v14<br>
- ➥ https://discordjs.guide/additional-info/changes-in-v14.html<br><br>
-● Command handling<br>
- ➥ https://discordjs.guide/creating-your-bot/command-handling.html<br><br>
-● Projeto discord.js v13 com command handling<br>
- ➥ https://github.com/discordjs/guide/tree/main/code-samples/creating-your-bot/command-handling<br>
+ ➥ https://discordjs.guide/additional-info/changes-in-v14.html<br>
 
  ## Playlist recomendada.
  ![](https://i.imgur.com/toQwUZE.png) Veja a playlist [clicando aqui](https://youtube.com/playlist?list=PLj8eMR1hXlcJDjxtBi1QhJg0dEWk5b3t6)
