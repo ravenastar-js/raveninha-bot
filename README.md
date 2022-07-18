@@ -1,6 +1,6 @@
 > :warning: **Antes de iniciar nessa jornada, para facilitar o conhecimento e entedimento sugiro estudar javascript e a lógica de programação antes de praticar.**
 # Projeto referencial.
-Guia para iniciantes que estão começando na jornada de desenvolvimento de bot para Discord.
+Guia para iniciantes que querem começar diretamente na criação de bot para discord.js
 > v14 requer o node 16.9
 
 ## 📄 Confira alguns artigos que serão úteis para sua jornada:
