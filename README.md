@@ -20,7 +20,7 @@ Guia para iniciantes que querem começar diretamente na criação de bot em disc
 
  ## Playlist recomendada.
  ![](https://i.imgur.com/toQwUZE.png) Veja a playlist [clicando aqui](https://youtube.com/playlist?list=PLj8eMR1hXlcJDjxtBi1QhJg0dEWk5b3t6)
- > :warning: **Na playlist é usadas versões antigas da lib (v12), entretanto precisará atualizar, adaptar o projeto para as versões atuais.**
+ > :warning: **Na playlist é usadas versões antigas do discord.js (v12), entretanto precisará atualizar, adaptar o projeto para as versões atuais.**
 
 ● Instale as dependências:
 ```
