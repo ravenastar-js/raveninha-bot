@@ -1,3 +1,23 @@
+<h2 align="center"> ━━━━━━  ❖  ━━━━━━ </h2>
+
+<div align="center">
+   <p></p>
+   <a href="https://github.com/StarlineBR/raveninha-bot/stargazers">
+      <img src="https://img.shields.io/github/stars/StarlineBR/raveninha-bot?color=%23ffb29b&labelColor=%23101415&style=for-the-badge">
+   </a>
+   <a href="https://github.com/StarlineBR/raveninha-bot/network/members/">
+      <img src="https://img.shields.io/github/forks/StarlineBR/raveninha-bot?color=%23A2B7EE&labelColor=%23101415&style=for-the-badge">
+   </a>
+   <a href="https://github.com/StarlineBR/raveninha-bot/">
+      <img src="https://img.shields.io/github/repo-size/StarlineBR/raveninha-bot?color=%23ee6a70&labelColor=%23101415&style=for-the-badge">
+   </a>
+   <br>
+</div>
+
+<p/>
+
+<h2></h2>
+
 > :warning: **Antes de iniciar nessa jornada, para facilitar o conhecimento e entedimento sugiro estudar javascript e a lógica de programação antes de praticar.**
 # Projeto referencial.
 Guia para iniciantes que querem começar diretamente na criação de bot em discord.js
