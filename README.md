@@ -11,7 +11,7 @@
    <a href="https://github.com/StarlineBR/raveninha-bot/">
       <img src="https://img.shields.io/github/repo-size/StarlineBR/raveninha-bot?color=%23ee6a70&labelColor=%23101415&style=for-the-badge">
    </a>
-   <br>
+   <br> 
 </div>
 
 <p/>
