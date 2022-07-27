@@ -54,7 +54,7 @@ Guia para iniciantes que querem começar diretamente na criação de bot em disc
 ```
 ● Para puxar as informações do `config.json` coloque as informações abaixo no `index.js`:
 ```
-const { botClientID, botPrefix, ownerID, embedColor, embedfooterText} = require('./config.json')
+const { botClientID, botPrefix, ownerID, embedColor, embedfooterText } = require('./config.json')
 ```
 ● Instale as dependências:
 ```
