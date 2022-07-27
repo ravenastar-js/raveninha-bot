@@ -52,8 +52,7 @@ Guia para iniciantes que querem começar diretamente na criação de bot em disc
     embedfooterText: "Exemplo bot - discord.js v13"
 }
 ```
-
-● Para puxar as informações do `config.json` coloque as informações abaixo no `index.js`
+● Para puxar as informações do `config.json` coloque as informações abaixo no `index.js`:
 ```
 const { botClientID, botPrefix, ownerID, embedColor, embedfooterText} = require('./config.json')
 ```
