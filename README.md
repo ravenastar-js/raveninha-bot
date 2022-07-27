@@ -38,6 +38,20 @@ Guia para iniciantes que querem começar diretamente na criação de bot em disc
  ![](https://i.imgur.com/toQwUZE.png) Veja a playlist [clicando aqui](https://youtube.com/playlist?list=PLj8eMR1hXlcJDjxtBi1QhJg0dEWk5b3t6)
  > :warning: **Na playlist é usadas versões antigas do discord.js (v12), entretanto precisará atualizar, adaptar o projeto para as versões atuais.**
 
+● Caso use `config.json`, coloque as informações abaixo:
+```
+{
+    botClientID: "ID_DO_BOT",
+    botPrefix: "PREFIXO_DO_BOT",
+    ownerID: "ID_DO_DONO",
+    embedColor: "HEXCOLOR",
+    embedfooterText: "Exemplo bot - discord.js v13"
+}
+```
+● Para puxar as informações do `config.json` coloque as informações abaixo no `index.js`:
+```
+const { botClientID, botPrefix, ownerID, embedColor, embedfooterText} = require('./config.json')
+```
 ● Instale as dependências:
 ```
 npm i discord.js
