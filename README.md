@@ -69,4 +69,6 @@ npm i chalk@4.1.2
 ● Não esqueça de ativar as permissões no [portal do desenvolvedor](https://discord.dev)
 ![](https://i.imgur.com/8DBc7xf.png)
 
+CLIQUE NO BOTÃO ABAIXO PARA IR NO PROJETO V13 <br> <a href="https://github.com/StarlineBR/raveninha-bot/tree/v13"><img src="https://img.shields.io/badge/-V13-046c04?style=flat-square&labelColor=046c04&logo=node.js&logoColor=white&link=https://github.com/StarlineBR/raveninha-bot/tree/v13"/></a>
+
 > #discord.jsv14 #slashcommands #handlers #prefix
