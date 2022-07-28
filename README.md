@@ -42,6 +42,9 @@ Guia para iniciantes que querem começar diretamente na criação de bot em disc
  ![](https://i.imgur.com/toQwUZE.png) Veja a playlist [clicando aqui](https://youtube.com/playlist?list=PLj8eMR1hXlcJDjxtBi1QhJg0dEWk5b3t6)
  > :warning: **Na playlist é usadas versões antigas do discord.js (v12), entretanto precisará atualizar, adaptar o projeto para as versões atuais.**
 
+## 📄 Software recomendado para configurar o projeto:
+● [Visual Studio Code](https://code.visualstudio.com) <a href="https://code.visualstudio.com"><img src="https://img.shields.io/badge/-Visual%20Studio%20Code-24a4ec?style=flat-square&labelColor=24a4ec&logo=VisualStudioCode&logoColor=white&link=ttps://code.visualstudio.com"/></a>
+
 ● Caso use `config.json`, coloque as informações abaixo:
 ```
 {
