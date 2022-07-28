@@ -50,7 +50,7 @@ Guia para iniciantes que querem começar diretamente na criação de bot em disc
 <a href="https://code.visualstudio.com"><img src="https://img.shields.io/badge/-Visual%20Studio%20Code-0464bc?style=flat-square&labelColor=0464bc&logo=VisualStudioCode&logoColor=white&link=ttps://code.visualstudio.com"/></a>
 
 ## 📄 Configurações:
-● Caso use `config.json`, coloque as informações abaixo:
+● Caso queira usar `config.json` em vez de `config.js`, coloque as informações abaixo:
 ```
 {
     botClientID: "ID_DO_BOT",
