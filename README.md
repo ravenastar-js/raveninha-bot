@@ -49,7 +49,7 @@ Guia para iniciantes que querem começar diretamente na criação de bot em disc
     botPrefix: "PREFIXO_DO_BOT",
     ownerID: "ID_DO_DONO",
     embedColor: "HEXCOLOR",
-    embedfooterText: "Exemplo bot - discord.js v13"
+    embedfooterText: "Exemplo bot - discord.js v14"
 }
 ```
 ● Para puxar as informações do `config.json` coloque as informações abaixo no `index.js`:
