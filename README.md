@@ -18,8 +18,9 @@
 
 <h2></h2>
 
-> :warning: **Antes de iniciar nessa jornada, para facilitar o conhecimento e entedimento sugiro estudar javascript e a lógica de programação antes de praticar.**
-# Projeto referencial.
+> **Warning**
+> **antes de iniciar nessa jornada, para facilitar o conhecimento e entedimento sugiro estudar javascript e a lógica de programação antes de praticar.**
+
 Guia para iniciantes que querem começar diretamente na criação de bot em discord.js
 > v13 requer o node 16.6
 
