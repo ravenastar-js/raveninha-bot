@@ -79,7 +79,7 @@ npm i chalk@4.1.2
 ![](https://i.imgur.com/8DBc7xf.png)
 
 ## 📄 Arquivo `discloud.config`:
-● Esse arquivo pode ser usado ao hospedar a sua aplicação em [discloudbot.com](https://discloudbot.com)
+● Esse arquivo pode ser usado ao hospedar a sua aplicação em [discloudbot.com](https://discloudbot.com)<br>
 ● Para saber como utilizar o arquivo `discloud.config` acesse https://docs.discloudbot.com/suporte/faq/discloud.config
 
 CLIQUE NO BOTÃO ABAIXO PARA IR NO PROJETO V14 <br> <a href="https://github.com/StarlineBR/raveninha-bot/tree/v14"><img src="https://img.shields.io/badge/-V14-ecdc1c?style=flat-square&labelColor=ecdc1c&logo=javascript&logoColor=black&link=https://github.com/StarlineBR/raveninha-bot/tree/v14"/></a>
