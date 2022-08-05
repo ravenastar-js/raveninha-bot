@@ -5,7 +5,7 @@
    <a href="https://github.com/StarlineBR/raveninha-bot/stargazers">
       <img src="https://img.shields.io/github/stars/StarlineBR/raveninha-bot?color=%23ffb29b&labelColor=%23101415&style=for-the-badge">
    </a>
-   <a href="https://github.com/StarlineBR/raveninha-bot/license">
+   <a href="https://github.com/StarlineBR/raveninha-bot/blob/v13/LICENSE">
       <img src="https://img.shields.io/github/license/StarlineBR/raveninha-bot?color=%23ffb29b&labelColor=%23101415&style=for-the-badge">
    </a>
    <a href="https://github.com/StarlineBR/raveninha-bot/network/members/">
