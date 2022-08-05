@@ -73,9 +73,14 @@ npm i chalk@4.1.2
 <a href="https://nodejs.org/pt-br/download/"><img src="https://img.shields.io/badge/-node.js-046c04?style=flat-square&labelColor=046c04&logo=node.js&logoColor=white&link=https://nodejs.org/pt-br/download/"/></a> <a href="https://discord.js.org/#/docs/discord.js/stable/general/welcome"><img src="https://img.shields.io/badge/-discord.js-ecdc1c?style=flat-square&labelColor=ecdc1c&logo=javascript&logoColor=black&link=https://discord.js.org/#/docs/discord.js/stable/general/welcome"/></a> <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/badge/-discord.js-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/discord.js"/></a> <a href="https://www.npmjs.com/package/dotenv"><img src="https://img.shields.io/badge/-dotenv-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/dotenv"/></a> <a href="https://www.npmjs.com/package/chalk"><img src="https://img.shields.io/badge/-chalk@4.1.2-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/chalk"/></a>ﾠ
 
 ● Mude as informações dos arquivos `config.json`, `.env` e `SlashCommands/Bot/help.js`
+> no arquivo `SlashCommands/Bot/help.js` vai alterar apenas os emojis.
 
 ● Não esqueça de ativar as permissões no [portal do desenvolvedor](https://discord.dev)
 ![](https://i.imgur.com/8DBc7xf.png)
+
+## 📄 Arquivo `discloud.config`:
+● Esse arquivo pode ser usado ao hospedar a sua aplicação em [discloudbot.com](https://discloudbot.com)
+● Para saber como utilizar o arquivo `discloud.config` acesse https://docs.discloudbot.com/suporte/faq/discloud.config
 
 CLIQUE NO BOTÃO ABAIXO PARA IR NO PROJETO V14 <br> <a href="https://github.com/StarlineBR/raveninha-bot/tree/v14"><img src="https://img.shields.io/badge/-V14-ecdc1c?style=flat-square&labelColor=ecdc1c&logo=javascript&logoColor=black&link=https://github.com/StarlineBR/raveninha-bot/tree/v14"/></a>
 
