@@ -34,7 +34,7 @@ Guia para iniciantes que querem começar diretamente na criação de bot em disc
 ● https://discord.js.org/#/docs/main/stable/general/welcome<br>
 ● https://discordjs.guide/
 
-## 📄 Discord.js guide:
+## ![](https://i.imgur.com/MjmHDsE.png) Discord.js guide:
 ● Atualizando da v12 para a v13<br>
  ➥ https://discordjs.guide/additional-info/changes-in-v13.html<br><br>
 ● Command handling<br>
