@@ -27,7 +27,7 @@
 Guia para iniciantes que querem começar diretamente na criação de bot em discord.js
 > v13 requer o node 16.6
 
-<br>❶ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
+<br>❶ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
 
 ## 📄 Confira alguns artigos que serão úteis para sua jornada:
 ● https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide<br>
@@ -36,7 +36,7 @@ Guia para iniciantes que querem começar diretamente na criação de bot em disc
 ● https://discord.js.org/#/docs/main/stable/general/welcome<br>
 ● https://discordjs.guide/
 
-<br>❷ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
+<br>❷ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
 
 ## ![](https://i.imgur.com/snCdwf2.png) Discord.js guide:
 ● Atualizando da v12 para a v13<br>
@@ -46,18 +46,18 @@ Guia para iniciantes que querem começar diretamente na criação de bot em disc
 ● Projeto discord.js v13 com command handling<br>
  ➥ https://github.com/discordjs/guide/tree/main/code-samples/creating-your-bot/command-handling<br>
 
-<br>❸ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
+<br>❸ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
 
  ## Playlist recomendada.
  ![](https://i.imgur.com/toQwUZE.png) Veja a playlist [clicando aqui](https://youtube.com/playlist?list=PLj8eMR1hXlcJDjxtBi1QhJg0dEWk5b3t6)
  > :warning: **Na playlist é usada versão antiga do discord.js (v12), entretanto precisará atualizar, adaptar o projeto para as versões atuais.**
 
-<br>❹ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
+<br>❹ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
 
 ## 📄 Software recomendado para configurar o projeto:
 <a href="https://code.visualstudio.com"><img src="https://img.shields.io/badge/-Visual%20Studio%20Code-0464bc?style=flat-square&labelColor=0464bc&logo=VisualStudioCode&logoColor=white&link=ttps://code.visualstudio.com"/></a>
 
-<br>❺ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
+<br>❺ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
 
 ## 📄 Configurações:
 ● Caso queira usar `config.json` em vez de `config.js`, coloque as informações abaixo:
@@ -88,7 +88,7 @@ npm i chalk@4.1.2
 ● Não esqueça de ativar as permissões no [portal do desenvolvedor](https://discord.dev)
 ![](https://i.imgur.com/8DBc7xf.png)
 
-<br>❻ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
+<br>❻ ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━<br>
 
 ## 📄 Arquivo `discloud.config`:
 ● Esse arquivo pode ser usado ao hospedar a sua aplicação em [discloudbot.com](https://discloudbot.com)<br>
