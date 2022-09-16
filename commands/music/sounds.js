@@ -17,12 +17,12 @@ module.exports = {
 
         let msg = message
         let sound = args[0]
-        if (!sound) return message.channel.send(`🔴 | Você não informou nenhuma música, use  **<prerfix>sounds <nome_da_música>**\n> exemplo: \`${client.config.prefix}sounds start-a-cult\`\n\`\`\`${list(soundsChoice, 'ou')}\`\`\``)
+        if (!sound) return message.channel.send(`🔴 | Você não informou nenhuma música, use  **${client.config.prefix}sounds <nome_da_música>**\n> exemplo: \`${client.config.prefix}sounds start-a-cult\`\n\`\`\`${list(soundsChoice, 'ou')}\`\`\``)
         const choice = sound.toLowerCase().replace(/( )+/g, '-').replace(/( )+/g, '-').replace(/( )+/g, '-').replace(/( )+/g, '-').replace(/( )+/g, '-')
         if (soundsChoice.includes(choice)) {
             sounds.find(snd => snd.includes(`${choice}.mp3`))
         } else {
-            return message.channel.send(`🔴 | Você não informou nenhuma música, use  **<prerfix>sounds <nome_da_música>**\n> exemplo: \`${client.config.prefix}sounds start-a-cult\`\n\`\`\`${list(soundsChoice, 'ou')}\`\`\``)
+            return message.channel.send(`🔴 | Você não informou nenhuma música, use  **${client.config.prefix}sounds <nome_da_música>**\n> exemplo: \`${client.config.prefix}sounds start-a-cult\`\n\`\`\`${list(soundsChoice, 'ou')}\`\`\``)
         }
         const player = createAudioPlayer();
 
