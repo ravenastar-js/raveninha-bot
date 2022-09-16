@@ -16,12 +16,12 @@ module.exports = {
 
         let msg = message
         let sound = args[0]
-        if (!sound) return message.channel.send(`🔴 | Você forneceu um som inválido. Por favor, escolha qualquer um \`\`\`${list(soundsChoice, 'ou')}\`\`\``)
+        if (!sound) return message.channel.send(`🔴 | Você forneceu um som inválido. Por favor, escolha alguma dessa lista \`\`\`${list(soundsChoice, 'ou')}\`\`\``)
         const choice = sound.toLowerCase().replace(/( )+/g, '-').replace(/( )+/g, '-').replace(/( )+/g, '-').replace(/( )+/g, '-').replace(/( )+/g, '-')
         if (soundsChoice.includes(choice)) {
             sounds.find(snd => snd.includes(`${choice}.mp3`))
         } else {
-            return message.channel.send(`🔴 | Você forneceu um som inválido. Por favor, escolha qualquer um \`\`\`${list(soundsChoice, 'ou')}\`\`\``)
+            return message.channel.send(`🔴 | Você forneceu um som inválido. Por favor, escolha alguma dessa lista \`\`\`${list(soundsChoice, 'ou')}\`\`\``)
         }
         const player = createAudioPlayer();
 
@@ -41,7 +41,8 @@ module.exports = {
         }
 
         const resource = createAudioResource(path.join(__dirname, '..', '..', 'assets', 'sounds', 'soundboard', `${choice}.mp3`));
-        player.play(resource)
+        player.play(resource).then(msg.react("🔉"))
+        
         player.on('error', error => {
             console.error(error);
         });
