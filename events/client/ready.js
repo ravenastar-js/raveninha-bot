@@ -7,7 +7,7 @@ module.exports = {
      */
     async execute(client) {
         
-        client.user.setActivity("!RavenaStar👽#0666 - linktr.ee/ravenastar", {
+        client.user.setActivity("RavenaStar👽 - linktr.ee/ravenastar", {
             type: "WATCHING",
             name: "!RavenaStar👽#0666"
         });
