@@ -22,7 +22,7 @@
 > **Antes de iniciar nessa jornada, para facilitar o conhecimento e entedimento sugiro estudar javascript e a lógica de programação antes de praticar.**
 
 > **Note**<br>
-> Versões deprecated/descontinuadas ou antigas serão removidas desse projeto.
+> Versões deprecated/descontinuadas ou antigas serão removidas desse projeto em atualizações futuras caso haja modificações total do projeto.
 
 # Projeto referencial.
 Guia para iniciantes que querem começar diretamente na criação de bot em discord.js
