@@ -2,17 +2,17 @@
 
 <div align="center">
    <p></p>
-   <a href="https://github.com/StarlineBR/raveninha-bot/stargazers">
-      <img src="https://img.shields.io/github/stars/StarlineBR/raveninha-bot?color=ffc044&labelColor=%23101415&style=for-the-badge">
+   <a href="https://github.com/ravenastar-js/raveninha-bot/stargazers">
+      <img src="https://img.shields.io/github/stars/ravenastar-js/raveninha-bot?color=ffc044&labelColor=%23101415&style=for-the-badge">
    </a>
-   <a href="https://github.com/StarlineBR/raveninha-bot/blob/v13/LICENSE">
-      <img src="https://img.shields.io/github/license/StarlineBR/raveninha-bot?color=%23ffb29b&labelColor=%23101415&style=for-the-badge">
+   <a href="https://github.com/ravenastar-js/raveninha-bot/blob/v13/LICENSE">
+      <img src="https://img.shields.io/github/license/ravenastar-js/raveninha-bot?color=%23ffb29b&labelColor=%23101415&style=for-the-badge">
    </a>
-   <a href="https://github.com/StarlineBR/raveninha-bot/network/members/">
-      <img src="https://img.shields.io/github/forks/StarlineBR/raveninha-bot?color=%23A2B7EE&labelColor=%23101415&style=for-the-badge">
+   <a href="https://github.com/ravenastar-js/raveninha-bot/network/members/">
+      <img src="https://img.shields.io/github/forks/ravenastar-js/raveninha-bot?color=%23A2B7EE&labelColor=%23101415&style=for-the-badge">
    </a>
-   <a href="https://github.com/StarlineBR/raveninha-bot/">
-      <img src="https://img.shields.io/github/repo-size/StarlineBR/raveninha-bot?color=%23ee6a70&labelColor=%23101415&style=for-the-badge">
+   <a href="https://github.com/ravenastar-js/raveninha-bot/">
+      <img src="https://img.shields.io/github/repo-size/ravenastar-js/raveninha-bot?color=%23ee6a70&labelColor=%23101415&style=for-the-badge">
    </a>
    <br> 
 </div>
@@ -97,6 +97,6 @@ npm i chalk@4.1.2
 ● Esse arquivo pode ser usado ao hospedar a sua aplicação em [discloudbot.com](https://discloudbot.com)<br>
 ● Para saber como utilizar o arquivo `discloud.config` acesse https://docs.discloudbot.com/suporte/faq/discloud.config
 
-CLIQUE NO BOTÃO ABAIXO PARA IR NO PROJETO V14 <br> <a href="https://github.com/StarlineBR/raveninha-bot/tree/v14"><img src="https://img.shields.io/badge/-V14-ecdc1c?style=flat-square&labelColor=ecdc1c&logo=javascript&logoColor=black&link=https://github.com/StarlineBR/raveninha-bot/tree/v14"/></a>
+CLIQUE NO BOTÃO ABAIXO PARA IR NO PROJETO V14 <br> <a href="https://github.com/ravenastar-js/raveninha-bot/tree/v14"><img src="https://img.shields.io/badge/-V14-ecdc1c?style=flat-square&labelColor=ecdc1c&logo=javascript&logoColor=black&link=https://github.com/ravenastar-js/raveninha-bot/tree/v14"/></a>
 
 > #discord.jsv13 #slashcommands #handlers #prefix
